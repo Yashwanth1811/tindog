@@ -1,0 +1,193 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+p {
+    color: #8f8f8f;
+}
+
+/* Headings */
+.big-head {
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+.section-head {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+/* containers */
+.container-fluid {
+    padding: 7% 12%;
+}
+
+/* backgrounds */
+.colored {
+    background-color: #ff4c68;
+}
+
+.white {
+    background-color: #fff;
+}
+
+.white-txt {
+    color: #fff;
+}
+
+/* Title section*/
+#title .container-fluid {
+    padding: 3% 15% 5%;
+    text-align: left;
+}
+
+/* Navbar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+    padding: 0 1rem;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* title download button */
+.dl-btn {
+    margin: 5% 3% 5% 0;
+}
+
+/* iphone pic*/
+.ip {
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 23%;
+}
+
+/* features section */
+.icon {
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover {
+    color: #ff4c68;
+}
+
+#features {
+    position: relative;
+    z-index: 1;
+}
+
+.feature-head {
+    font-size: 1.5rem;  
+}
+
+.feature-box {
+    padding: 4.5% 2% 4.5%;
+}
+
+.feature-text {
+    width: 70%;
+    margin: 0 auto 0;
+}
+
+/* Testimonial section */
+
+#testimonials {
+    background-color: #ef8172;
+}
+
+.test-head {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.test-img {
+    border-radius: 50%;
+    width: 12%;
+    margin: 20px;
+}
+
+#press {
+    background-color: #ef8172;
+    padding-bottom: 3%;
+}
+
+.press-img {
+    width: 15%;
+    margin: 20px 20px 30px 30px;
+}
+
+/* Pricing section */
+#pricing {
+    padding: 100px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+.card-head {
+    font-size: 1.5rem;
+}
+
+.price-head {
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.p-col {
+    padding: 3% 2%;
+}
+
+@media (max-width: 990px) {
+    #title {
+        text-align: center;
+    }
+
+    .ip {
+        transform: rotate(0);
+        position: static;
+        width:40%
+    }
+}
+
+/* cta section */
+.cta-head {
+    margin: 0 auto;
+    padding-top: 100px;
+    line-height: 1.5;
+    width: 50%;
+}
+
+.button-space{
+    padding-left: 60px;
+}
+
+/* footer section  */
+#footer {
+    margin: 4% 10% 3%;
+}
+
+.foot-icon {
+    padding: 0 10px;
+}
+
+.foot-text {
+    padding-top: 15px;
+    font-size: 1rem;
+}
